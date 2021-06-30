@@ -1,0 +1,60 @@
+html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    background: #fff;
+    border: 3px solid crimson;
+    border-radius: 5px;
+    height: 450px;
+    width: 300px;
+    text-align: center;
+}
+
+
+.avatar img{
+    height: 200px;
+    background-color: none;
+    margin-top: 10px;
+}
+
+.container .user h2{
+    font-size: 25px;
+    color: crimson;
+}
+
+.user form input{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    background: rgb(245, 173, 188);
+    color: #fff;
+}
+
+.botones button{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 10px 12px;
+    background-color: crimson;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    width: 90%;
+    height: 30px;
+    padding-top: 3px;
+}
+
+.botones a{
+    font-size: 20px;
+    color: crimson;
+}
